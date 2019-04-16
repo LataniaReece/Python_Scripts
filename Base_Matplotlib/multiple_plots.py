@@ -10,7 +10,7 @@ def f(t):
 t1 = np.arange(0.0, 5.0, 0.1)
 t2 = np.arange(0.0, 5.0, 0.02)
 
-plt.subplot(211) #2 rows, 1 row, first plot
+plt.subplot(211) #2 rows, 1 column, first plot
 plt.plot(t1, f(t1), 'bo', t2, f(t2))
 
 plt.subplot(212) # 2 rows, 1 column, second plot
